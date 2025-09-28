@@ -3,12 +3,13 @@ package com.nt.Service;
 import org.springframework.stereotype.Service;
 
 import com.nt.entity.UserRegister;
+import com.nt.model.UserRequestDto;
 
 
 public interface UserRegisterService {
 	
 	
-          public String insertUserRegister(UserRegister userRegister);
+          public UserRegister insertUserRegister(UserRequestDto userRequestDto);
 
 		 
 }
